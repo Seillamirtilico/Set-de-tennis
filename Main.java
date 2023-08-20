@@ -25,14 +25,20 @@ public class Main {
         if ((GanadosA==5) && (GanadosB==5)) {
             System.out.println("Empate 5 a 5");
             //empate 5 a 5
+        } else if ((GanadosA >6) && (GanadosA-GanadosB>2)){
+            System.out.println("Invalido!!");
+            //invalido de a
+        } else if ((GanadosB >6) && (GanadosB-GanadosA>2)){
+            System.out.println("Invalido!!");
+            //invalido de b
         } else if ((GanadosA ==6) && (GanadosB==6)){
             System.out.println("Empate 6 a 6");
             //empate 6 a 6
         }
-        else if ((GanadosB >=6) && (GanadosB>=Paraganarb)) {
+        else if ((GanadosB >=6) && (GanadosB>=Paraganarb)  &&((Paraganarb >=2))) {
             System.out.println("gano el equipo b");
             // Gano el b
-        } else if ((GanadosA>=6) && (GanadosA>=Paraganara)) {
+        } else if ((GanadosA>=6) && (GanadosA>=Paraganara)&& (Paraganara >=2)) {
             System.out.println("Gano el Equipo A");
             // Gano el a
         } else if((GanadosA <= 6) && (GanadosB <= 6))  {
