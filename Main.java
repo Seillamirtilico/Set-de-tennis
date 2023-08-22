@@ -41,12 +41,10 @@ public class Main {
         } else if ((GanadosA>=6) && (GanadosA>=Paraganara)&& (Paraganara >=2)) {
             System.out.println("Gano el Equipo A");
             // Gano el a
-        } else if((GanadosA <= 6) && (GanadosB <= 6))  {
+        } else if((GanadosA <= 6) && (GanadosB <= 6)&&(GanadosA>=0)&&(GanadosB>=0))  {
             System.out.println("el juego aun no termina");
             //EL juego no ha terminado
-        } else if (GanadosA == 5) {
-            // Código para la variableA igual a 5
-        }  else {
+        } else {
             System.out.println("opcion invalida");
         }
     }
